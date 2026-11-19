@@ -1,0 +1,6 @@
+{
+  "name": "রাউটার ট্র্যাকার",
+  "description": "স্থানীয় UPnP-এর মাধ্যমে হোম রাউটারের মোট ডাটা খরচ ও লাইভ স্পিড ট্র্যাকিং (কারেন্ট গেলেও জিরো হবে না)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

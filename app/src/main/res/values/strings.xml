@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">রাউটার ট্র্যাকার</string>
+    <string name="header_title">রাউটার ডাটা ট্র্যাকার</string>
+    <string name="header_subtitle">হোম ওয়াই-ফাই UPnP লাইভ মনিটর</string>
+
+    <!-- Status Badges -->
+    <string name="status_connected">সংযুক্ত</string>
+    <string name="status_discovering">খোঁজা হচ্ছে…</string>
+    <string name="status_offline">অফলাইন</string>
+
+    <!-- Hero Cumulative Card -->
+    <string name="hero_title">মোট স্থায়ী খরচ (কারেন্ট গেলেও জিরো হবে না)</string>
+    <string name="total_download_label">মোট ডাউনলোড</string>
+    <string name="total_upload_label">মোট আপলোড</string>
+    <string name="tracking_since_format">শুরু: %1$s</string>
+
+    <!-- Live Speed Cards -->
+    <string name="live_download_label">লাইভ ডাউনলোড</string>
+    <string name="live_upload_label">লাইভ আপলোড</string>
+
+    <!-- Reboot Protection Banner -->
+    <string name="reboot_protection_banner">কারেন্ট যাওয়া/রিস্টার্ট থেকে ডাটা রক্ষা করা হয়েছে %1$s বার</string>
+    <string name="reboot_protection_sub">পাওয়ার কাট বা রাউটার রিবুটেও আপনার মোট হিসাব সুরক্ষিত থাকে</string>
+
+    <!-- Battery Optimization Button -->
+    <string name="battery_protect_enable">২৪/৭ ব্যাকগ্রাউন্ড সুরক্ষা চালু করুন</string>
+    <string name="battery_protect_active">২৪/৭ ব্যাকগ্রাউন্ড সুরক্ষা চালু আছে</string>
+    <string name="battery_protect_hint">অ্যান্ড্রয়েড যেন ব্যাকগ্রাউন্ডে ট্র্যাকিং বন্ধ না করে</string>
+
+    <!-- Notification Permission Card -->
+    <string name="notification_permission_title">নোটিফিকেশন অনুমতি দিন</string>
+    <string name="notification_permission_body">স্ট্যাটাস বারে লাইভ স্পিড ও মোট খরচ দেখতে অনুমতি প্রয়োজন</string>
+    <string name="notification_permission_action">অনুমতি দিন</string>
+
+    <!-- Secondary Cards -->
+    <string name="today_usage_title">আজকের মোট খরচ</string>
+    <string name="router_session_title">রাউটারের বর্তমান সেশন (কারেন্ট গেলে যা ০ হয়)</string>
+    <string name="session_offline_hint">রাউটার অফলাইন — সংরক্ষিত ডাটা সম্পূর্ণ সুরক্ষিত আছে</string>
+    <string name="router_endpoint_label">রাউটার: %1$s</string>
+    <string name="router_searching_hint">লোকাল নেটওয়ার্কে UPnP রাউটার খোঁজা হচ্ছে…</string>
+    <string name="action_rediscover">পুনরায় খুঁজুন</string>
+
+    <!-- Bottom Action Buttons -->
+    <string name="action_add_prior">আগের GB যোগ করুন</string>
+    <string name="action_monthly_reset">মাসিক রিসেট</string>
+
+    <!-- Add Prior GB Dialog -->
+    <string name="dialog_add_prior_title">আগের GB যোগ করুন</string>
+    <string name="dialog_add_prior_subtitle">আইএসপি (ISP) রেকর্ডের সাথে মিলাতে আগের ডাউনলোড ও আপলোড GB যোগ করুন।</string>
+    <string name="dialog_download_gb_label">ডাউনলোড (GB)</string>
+    <string name="dialog_upload_gb_label">আপলোড (GB)</string>
+    <string name="dialog_gb_placeholder">যেমন: 12.5</string>
+    <string name="dialog_invalid_number">অনুগ্রহ করে সঠিক সংখ্যা (০ বা তার বেশি) লিখুন</string>
+    <string name="dialog_confirm_add">যোগ করুন</string>
+    <string name="dialog_cancel">বাতিল</string>
+
+    <!-- Monthly Reset Dialog -->
+    <string name="dialog_reset_title">মাসিক রিসেট নিশ্চিত করুন</string>
+    <string name="dialog_reset_message">আপনি কি নিশ্চিত যে মোট খরচ, আজকের খরচ এবং রিবুট গণনা ০ (জিরো) করতে চান? এটি আর ফিরিয়ে আনা যাবে না।</string>
+    <string name="dialog_confirm_reset">হ্যাঁ, রিসেট করুন</string>
+
+    <!-- Notification Channel & Texts -->
+    <string name="notification_channel_name">রাউটার ডাটা মনিটর</string>
+    <string name="notification_channel_desc">হোম রাউটারের মোট ও আজকের ডাটা খরচ এবং লাইভ স্পিড দেখায়</string>
+    <string name="notification_title_format">মোট %1$s • আজ %2$s</string>
+    <string name="notification_speed_format">↓ %1$s  •  ↑ %2$s</string>
+    <string name="notification_offline_body">রাউটার অফলাইন — সংরক্ষিত ডাটা সুরক্ষিত আছে</string>
+    <string name="notification_discovering_body">লোকাল রাউটার খোঁজা হচ্ছে — সংরক্ষিত ডাটা সুরক্ষিত আছে</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_router_icon">রাউটার আইকন</string>
+    <string name="cd_download_icon">ডাউনলোড আইকন</string>
+    <string name="cd_upload_icon">আপলোড আইকন</string>
+    <string name="cd_shield_icon">ডাটা সুরক্ষা আইকন</string>
+    <string name="cd_battery_icon">ব্যাটারি সুরক্ষা আইকন</string>
+    <string name="cd_calendar_icon">আজকের খরচ আইকন</string>
+    <string name="cd_session_icon">রাউটার সেশন আইকন</string>
+    <string name="cd_add_icon">আগের ডাটা যোগ আইকন</string>
+    <string name="cd_reset_icon">মাসিক রিসেট আইকন</string>
+    <string name="cd_refresh_icon">পুনরায় রাউটার খুঁজুন</string>
+</resources>
